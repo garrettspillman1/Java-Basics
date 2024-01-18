@@ -9,6 +9,7 @@ public class SimpleRecursion {
 	/**
 	 * The main method (not used in this class).
 	 *
+	 * 
 	 * @param args Command line arguments (not used).
 	 */
 	public static void main(String[] args) {
