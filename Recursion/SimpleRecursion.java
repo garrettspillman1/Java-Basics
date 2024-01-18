@@ -13,7 +13,22 @@ public class SimpleRecursion {
 	 * @param args Command line arguments (not used).
 	 */
 	public static void main(String[] args) {
-		// This method intentionally left blank.
+        // Example of counting down from 5
+        System.out.println("Counting down from 5:");
+        SimpleRecursion.countDown(5);
+		System.out.println();
+
+        // Example of calculating factorial for 5
+        int factorialResult = SimpleRecursion.factorial(5);
+        System.out.println("Factorial of 5: " + factorialResult+"\n");
+
+        // Example of calculating GCD for two numbers (15 and 25)
+        int gcdResult = SimpleRecursion.gcd(15, 25);
+        System.out.println("GCD of 15 and 25: " + gcdResult+"\n");
+
+        // Example of calculating Fibonacci value at position 6
+        int fibonacciResult = SimpleRecursion.fibonacci(6);
+        System.out.println("Fibonacci value at position 6: " + fibonacciResult+"\n");		
 	}
 
 	/**
